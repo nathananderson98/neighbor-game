@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Y2Mate.is - Won't You Be My Neighbor [8 Bit Tribute to Mr. Rogers] - 8 Bit Universe-8f3BEcQp1Q4-48k-1659646018463.mp3-ec05d1cb585d9c3c75ba836c4aa3888d.mp3str"
+
+[deps]
+
+source_file="res://Y2Mate.is - Won't You Be My Neighbor [8 Bit Tribute to Mr. Rogers] - 8 Bit Universe-8f3BEcQp1Q4-48k-1659646018463.mp3"
+dest_files=[ "res://.import/Y2Mate.is - Won't You Be My Neighbor [8 Bit Tribute to Mr. Rogers] - 8 Bit Universe-8f3BEcQp1Q4-48k-1659646018463.mp3-ec05d1cb585d9c3c75ba836c4aa3888d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
