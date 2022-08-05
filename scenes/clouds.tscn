@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/Clouds.gd" type="Script" id=3]
+
+[node name="Clouds" type="Node2D"]
+position = Vector2( -2.43112, -0.845276 )
+scale = Vector2( 10, 10 )
+script = ExtResource( 3 )
+
+[node name="RightBorder" type="Node2D" parent="."]
+position = Vector2( 127.8, 47.0604 )
+
+[node name="LeftBorder" type="Node2D" parent="."]
+position = Vector2( 0.0503082, 46.0223 )
+
+[node name="TopBorder" type="Node2D" parent="."]
+position = Vector2( 62.236, 0.33577 )
+
+[node name="BottomBorder" type="Node2D" parent="."]
+position = Vector2( 61.0313, 94.858 )

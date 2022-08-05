@@ -17,7 +17,6 @@ func _on_rogers_left_trolley() -> void:
 	pass
 
 func _on_neighbor_found_home(id: int) -> void:
-	print('You helped a neighbor')
 	helped_neighbors.append(id)
 	if len(helped_neighbors) == total_neighbors:
 		trolley.set_trolley_open(true)

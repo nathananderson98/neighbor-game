@@ -1,0 +1,139 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Y2Mate.is - Won't You Be My Neighbor [8 Bit Tribute to Mr. Rogers] - 8 Bit Universe-8f3BEcQp1Q4-48k-1659646018463.mp3" type="AudioStream" id=1]
+[ext_resource path="res://scenes/clouds.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/TileMap.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scripts/base_level.gd" type="Script" id=4]
+[ext_resource path="res://scenes/trolley.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/player.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/neighbor.tscn" type="PackedScene" id=7]
+[ext_resource path="res://scenes/house.tscn" type="PackedScene" id=8]
+[ext_resource path="res://assets/fonts/8-BIT WONDER.TTF" type="DynamicFontData" id=9]
+
+[sub_resource type="DynamicFont" id=1]
+size = 40
+font_data = ExtResource( 9 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 40
+
+[sub_resource type="Theme" id=2]
+default_font = SubResource( 3 )
+RichTextLabel/fonts/normal_font = SubResource( 1 )
+
+[node name="BaseLevel" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+pitch_scale = 0.75
+
+[node name="TileMap" parent="." instance=ExtResource( 3 )]
+collision_mask = 7
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="Player" parent="YSort" instance=ExtResource( 6 )]
+position = Vector2( 619.221, 307.07 )
+
+[node name="Trolley" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( 629.977, 650.649 )
+
+[node name="House1" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 1066, 540 )
+
+[node name="Neighbor1" parent="YSort" instance=ExtResource( 7 )]
+position = Vector2( 131, 429 )
+
+[node name="Clouds" parent="." instance=ExtResource( 2 )]
+position = Vector2( -0.17392, 0.152588 )
+
+[node name="CameraBounds" type="Node2D" parent="."]
+
+[node name="Left" type="Node2D" parent="CameraBounds"]
+position = Vector2( -521, 432 )
+
+[node name="Top" type="Node2D" parent="CameraBounds"]
+position = Vector2( 594, -189 )
+
+[node name="Right" type="Node2D" parent="CameraBounds"]
+position = Vector2( 1757, 455 )
+
+[node name="Bottom" type="Node2D" parent="CameraBounds"]
+position = Vector2( 655, 1037 )
+
+[node name="TrolleyLocations" type="Node2D" parent="."]
+
+[node name="TrolleyStart" type="Node2D" parent="TrolleyLocations"]
+position = Vector2( 72, 91 )
+
+[node name="TrolleyEnd" type="Node2D" parent="TrolleyLocations"]
+position = Vector2( 1258, 154 )
+
+[node name="Panel" type="Panel" parent="."]
+visible = false
+margin_left = -2.0
+margin_top = -6.0
+margin_right = 1361.0
+margin_bottom = 1054.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Control" type="Control" parent="Panel/VBoxContainer"]
+margin_right = 1363.0
+margin_bottom = 279.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="EndGameTitle" type="RichTextLabel" parent="Panel/VBoxContainer"]
+margin_left = 181.0
+margin_top = 283.0
+margin_right = 1181.0
+margin_bottom = 324.0
+rect_min_size = Vector2( 1000, 0 )
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = SubResource( 2 )
+text = "This is the text"
+fit_content_height = true
+
+[node name="Control3" type="Control" parent="Panel/VBoxContainer"]
+margin_top = 328.0
+margin_right = 1363.0
+margin_bottom = 390.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.22
+
+[node name="EndGameBody" type="RichTextLabel" parent="Panel/VBoxContainer"]
+margin_left = 181.0
+margin_top = 394.0
+margin_right = 1181.0
+margin_bottom = 435.0
+rect_min_size = Vector2( 1000, 0 )
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = SubResource( 2 )
+text = "This is the text"
+fit_content_height = true
+
+[node name="Control2" type="Control" parent="Panel/VBoxContainer"]
+margin_top = 439.0
+margin_right = 1363.0
+margin_bottom = 1060.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 2.22
+
+[node name="DisplayTimer" type="Timer" parent="."]
+one_shot = true
+autostart = true
+
+[connection signal="left_wih_rogers" from="YSort/Trolley" to="." method="_on_Trolley_left_wih_rogers"]
+[connection signal="rogers_entered_trolley" from="YSort/Trolley" to="." method="_on_Trolley_rogers_entered_trolley"]
+[connection signal="rogers_left_trolley" from="YSort/Trolley" to="." method="_on_Trolley_rogers_left_trolley"]
+[connection signal="timeout" from="DisplayTimer" to="." method="_on_DisplayTimer_timeout"]

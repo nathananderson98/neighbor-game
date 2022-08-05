@@ -13,13 +13,23 @@ var leader := self
 
 onready var sprite := $AnimatedSprite
 onready var chevron_sprite := $ChevronSprite
+onready var camera := $Camera2D
+onready var gui := $GUI
 
 enum State {
 	MOVE,
 	IDLE
 }
 
+func set_camera_bounds(up: int, down: int, left: int, right: int):
+	camera.set_limit(MARGIN_TOP, up)
+	camera.set_limit(MARGIN_BOTTOM, down)
+	camera.set_limit(MARGIN_LEFT, left)
+	camera.set_limit(MARGIN_RIGHT, right)
 
+func _process(delta: float) -> void:
+	gui.global_position = camera.get_camera_screen_center() - Vector2(get_viewport().get_visible_rect().size.x / 2, get_viewport().get_visible_rect().size.y / 2) # Get Height)
+	
 func _physics_process(delta: float) -> void:
 	match state:
 		State.MOVE:
@@ -28,6 +38,8 @@ func _physics_process(delta: float) -> void:
 			_idle_state(delta)
 	chevron_sprite.visible = follower != null
 	if follower != null:
+		if follower.name == "Trolley":
+			chevron_sprite.set_modulate(Color(0,0.9,0))
 		chevron_sprite.rotation_degrees = rad2deg((follower.house_position - global_position).angle()) - 90
 
 func _move_state(delta: float) -> void:
@@ -58,11 +70,3 @@ func _idle_state(delta: float) -> void:
 		state = State.MOVE
 	else:
 		sprite.set_animation("idle")
-#	if Input.is_action_pressed("ui_up"):
-#		speed.y -= ACCELERATION
-#	elif Input.is_action_pressed("ui_right"):
-#		print("right")
-#	elif Input.is_action_pressed("ui_left"):
-#		print("left")
-#	elif Input.is_action_pressed("ui_down"):
-#		print("down")

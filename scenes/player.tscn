@@ -11,11 +11,7 @@
 [ext_resource path="res://scripts/player.gd" type="Script" id=9]
 [ext_resource path="res://assets/mrRogers.png" type="Texture" id=10]
 [ext_resource path="res://assets/chevron_pointer.png" type="Texture" id=11]
-[ext_resource path="res://scenes/UI.tscn" type="PackedScene" id=12]
-
-[sub_resource type="CapsuleShape2D" id=2]
-radius = 13.0
-height = 10.0001
+[ext_resource path="res://scenes/gui.tscn" type="PackedScene" id=12]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -30,16 +26,15 @@ animations = [ {
 "speed": 8.0
 } ]
 
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 13.0
+height = 10.0001
+
 [node name="Player" type="KinematicBody2D"]
 collision_mask = 7
 script = ExtResource( 9 )
 ACCELERATION = 2000
 FRICTION = 2500
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, 4 )
-rotation = 1.5708
-shape = SubResource( 2 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 2, -25 )
@@ -47,6 +42,11 @@ scale = Vector2( 5, 5 )
 frames = SubResource( 1 )
 animation = "idle"
 playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 4 )
+rotation = 1.5708
+shape = SubResource( 2 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true

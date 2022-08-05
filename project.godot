@@ -9,6 +9,16 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Node2D",
+"class": "BaseLevel",
+"language": "GDScript",
+"path": "res://scripts/base_level.gd"
+}, {
+"base": "Node2D",
+"class": "GUI",
+"language": "GDScript",
+"path": "res://scripts/UI.gd"
+}, {
 "base": "KinematicBody2D",
 "class": "Neighbor",
 "language": "GDScript",
@@ -25,6 +35,8 @@ _global_script_classes=[ {
 "path": "res://scripts/trolley.gd"
 } ]
 _global_script_class_icons={
+"BaseLevel": "",
+"GUI": "",
 "Neighbor": "",
 "Player": "",
 "Trolley": ""
@@ -33,7 +45,7 @@ _global_script_class_icons={
 [application]
 
 config/name="roger"
-run/main_scene="res://scenes/stage.tscn"
+run/main_scene="res://scenes/level_controller.tscn"
 
 [display]
 

@@ -95,7 +95,6 @@ func _idle_state(delta: float) -> void:
 
 func _go_home_state(delta: float) -> void:
 	_move_neighbor(house_direction, true)
-#	print((house_position - global_position).length())
 	if ((house_position - global_position).length() < 30):
 		emit_signal("found_home", id)
 		queue_free()
