@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sandbar2.png-693cdb9fad56301b677c1cdfea6247a1.stex"
+path="res://.import/sandbar2.png-bd1cc7630a39c8031ce465f348fb95b8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/tilemap/sandbar2.png"
-dest_files=[ "res://.import/sandbar2.png-693cdb9fad56301b677c1cdfea6247a1.stex" ]
+source_file="res://assets/tilemap/sandbar2.png"
+dest_files=[ "res://.import/sandbar2.png-bd1cc7630a39c8031ce465f348fb95b8.stex" ]
 
 [params]
 

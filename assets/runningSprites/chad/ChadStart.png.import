@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ChadStart.png-e6072df46b9387c63ff31b39f1776168.stex"
+path="res://.import/ChadStart.png-546e02bed448ea062c4a8b3349433bc9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/runningSprites/chad/ChadStart.png"
-dest_files=[ "res://.import/ChadStart.png-e6072df46b9387c63ff31b39f1776168.stex" ]
+source_file="res://assets/runningSprites/chad/ChadStart.png"
+dest_files=[ "res://.import/ChadStart.png-546e02bed448ea062c4a8b3349433bc9.stex" ]
 
 [params]
 

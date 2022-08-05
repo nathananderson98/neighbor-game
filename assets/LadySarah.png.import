@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/LadySarah.png-93e14ba45f5441fcbe0a3278f00ebaf3.stex"
+path="res://.import/LadySarah.png-d6492842965c0adad9d992f6bf37f76f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/LadySarah.png"
-dest_files=[ "res://.import/LadySarah.png-93e14ba45f5441fcbe0a3278f00ebaf3.stex" ]
+source_file="res://assets/LadySarah.png"
+dest_files=[ "res://.import/LadySarah.png-d6492842965c0adad9d992f6bf37f76f.stex" ]
 
 [params]
 

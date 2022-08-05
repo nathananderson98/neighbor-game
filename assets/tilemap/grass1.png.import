@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/grass1.png-2b049401905a592a93329c5b99ea307c.stex"
+path="res://.import/grass1.png-c3057dfc6633a02913e4295cd64d83e5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/tilemap/grass1.png"
-dest_files=[ "res://.import/grass1.png-2b049401905a592a93329c5b99ea307c.stex" ]
+source_file="res://assets/tilemap/grass1.png"
+dest_files=[ "res://.import/grass1.png-c3057dfc6633a02913e4295cd64d83e5.stex" ]
 
 [params]
 

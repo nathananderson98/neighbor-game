@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/garyHouse.png-2fc438ed6d939ae4fbcc7a1e23500336.stex"
+path="res://.import/garyHouse.png-9e12c9ade030fd92544f13538c6aa594.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/garyHouse.png"
-dest_files=[ "res://.import/garyHouse.png-2fc438ed6d939ae4fbcc7a1e23500336.stex" ]
+source_file="res://assets/garyHouse.png"
+dest_files=[ "res://.import/garyHouse.png-9e12c9ade030fd92544f13538c6aa594.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Rogers4.png-818f4950d8d6e411a64d844f75cf0e5b.stex"
+path="res://.import/Rogers4.png-df5675afa262ee53fb91f7ef5c1a12e8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/runningSprites/Rogers4.png"
-dest_files=[ "res://.import/Rogers4.png-818f4950d8d6e411a64d844f75cf0e5b.stex" ]
+source_file="res://assets/runningSprites/Rogers4.png"
+dest_files=[ "res://.import/Rogers4.png-df5675afa262ee53fb91f7ef5c1a12e8.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mrTim.png-25674eedde4dbd27f821404ec39b9510.stex"
+path="res://.import/mrTim.png-45fa9a083f3934421ac5e2a89487c8a3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/mrTim.png"
-dest_files=[ "res://.import/mrTim.png-25674eedde4dbd27f821404ec39b9510.stex" ]
+source_file="res://assets/mrTim.png"
+dest_files=[ "res://.import/mrTim.png-45fa9a083f3934421ac5e2a89487c8a3.stex" ]
 
 [params]
 

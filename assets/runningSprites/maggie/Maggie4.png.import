@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Maggie4.png-66be7d608735e041ef168977a816f8fc.stex"
+path="res://.import/Maggie4.png-a58cfb5fa1cdfa47cf5652cad82c60c1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/runningSprites/maggie/Maggie4.png"
-dest_files=[ "res://.import/Maggie4.png-66be7d608735e041ef168977a816f8fc.stex" ]
+source_file="res://assets/runningSprites/maggie/Maggie4.png"
+dest_files=[ "res://.import/Maggie4.png-a58cfb5fa1cdfa47cf5652cad82c60c1.stex" ]
 
 [params]
 

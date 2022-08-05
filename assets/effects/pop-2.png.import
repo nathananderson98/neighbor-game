@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pop-2.png-686909e55b691745a6cc8c4612b41a1f.stex"
+path="res://.import/pop-2.png-44710ec813410935c52b2b913fc29239.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/effects/pop-2.png"
-dest_files=[ "res://.import/pop-2.png-686909e55b691745a6cc8c4612b41a1f.stex" ]
+source_file="res://assets/effects/pop-2.png"
+dest_files=[ "res://.import/pop-2.png-44710ec813410935c52b2b913fc29239.stex" ]
 
 [params]
 

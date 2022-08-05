@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/AberlinHouse.png-7cab10e1a1d365e24ea48c9756eed43a.stex"
+path="res://.import/AberlinHouse.png-5357ebb1931fc8fb25c63c4097df3d1e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/AberlinHouse.png"
-dest_files=[ "res://.import/AberlinHouse.png-7cab10e1a1d365e24ea48c9756eed43a.stex" ]
+source_file="res://assets/AberlinHouse.png"
+dest_files=[ "res://.import/AberlinHouse.png-5357ebb1931fc8fb25c63c4097df3d1e.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Steve2.png-4d43578be257eed183b3dd4562b9efff.stex"
+path="res://.import/Steve2.png-e8b70573d2e97af61c20bdc3c6d72d7c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/runningSprites/steve/Steve2.png"
-dest_files=[ "res://.import/Steve2.png-4d43578be257eed183b3dd4562b9efff.stex" ]
+source_file="res://assets/runningSprites/steve/Steve2.png"
+dest_files=[ "res://.import/Steve2.png-e8b70573d2e97af61c20bdc3c6d72d7c.stex" ]
 
 [params]
 

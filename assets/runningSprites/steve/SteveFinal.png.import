@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/SteveFinal.png-9b440ebd1bf83970e73150fdd49342aa.stex"
+path="res://.import/SteveFinal.png-7b27523fb2cffaf1288198b07ebb738c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/runningSprites/steve/SteveFinal.png"
-dest_files=[ "res://.import/SteveFinal.png-9b440ebd1bf83970e73150fdd49342aa.stex" ]
+source_file="res://assets/runningSprites/steve/SteveFinal.png"
+dest_files=[ "res://.import/SteveFinal.png-7b27523fb2cffaf1288198b07ebb738c.stex" ]
 
 [params]
 

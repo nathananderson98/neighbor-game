@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/maggieHouse.png-69010a69abdc08b580649777662b328b.stex"
+path="res://.import/maggieHouse.png-cf8b0f05e8043bf0123cb8e38cdf4ce9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/maggieHouse.png"
-dest_files=[ "res://.import/maggieHouse.png-69010a69abdc08b580649777662b328b.stex" ]
+source_file="res://assets/maggieHouse.png"
+dest_files=[ "res://.import/maggieHouse.png-cf8b0f05e8043bf0123cb8e38cdf4ce9.stex" ]
 
 [params]
 

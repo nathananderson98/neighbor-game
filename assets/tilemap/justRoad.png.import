@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/justRoad.png-59ed1f044890d755aacd4537475d7bdb.stex"
+path="res://.import/justRoad.png-b0c4c9ff98fc661520d1b308b4db8f72.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/tilemap/justRoad.png"
-dest_files=[ "res://.import/justRoad.png-59ed1f044890d755aacd4537475d7bdb.stex" ]
+source_file="res://assets/tilemap/justRoad.png"
+dest_files=[ "res://.import/justRoad.png-b0c4c9ff98fc661520d1b308b4db8f72.stex" ]
 
 [params]
 

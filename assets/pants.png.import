@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pants.png-dfab1987384f2c94c80a5b621b820ed5.stex"
+path="res://.import/pants.png-cd9a0b203a1858cd659a1a3507332f02.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/pants.png"
-dest_files=[ "res://.import/pants.png-dfab1987384f2c94c80a5b621b820ed5.stex" ]
+source_file="res://assets/pants.png"
+dest_files=[ "res://.import/pants.png-cd9a0b203a1858cd659a1a3507332f02.stex" ]
 
 [params]
 

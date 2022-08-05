@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/timHouse.png-47f992ffc0f7c2f60528657192ebd53a.stex"
+path="res://.import/timHouse.png-420a6c0bda2288f433a80403776d5200.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/timHouse.png"
-dest_files=[ "res://.import/timHouse.png-47f992ffc0f7c2f60528657192ebd53a.stex" ]
+source_file="res://assets/timHouse.png"
+dest_files=[ "res://.import/timHouse.png-420a6c0bda2288f433a80403776d5200.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tyler2.png-3969aaae55e55555ce49e3e84a5e6697.stex"
+path="res://.import/tyler2.png-6afa87c57e16653df66b9552739e99dc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/runningSprites/tyler/tyler2.png"
-dest_files=[ "res://.import/tyler2.png-3969aaae55e55555ce49e3e84a5e6697.stex" ]
+source_file="res://assets/runningSprites/tyler/tyler2.png"
+dest_files=[ "res://.import/tyler2.png-6afa87c57e16653df66b9552739e99dc.stex" ]
 
 [params]
 

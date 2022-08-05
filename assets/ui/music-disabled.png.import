@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/music-disabled.png-42f1acbaa9e7b99324d7bbd44f76c2ae.stex"
+path="res://.import/music-disabled.png-27fa4554525c4554aa8a29238b699c72.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/ui/music-disabled.png"
-dest_files=[ "res://.import/music-disabled.png-42f1acbaa9e7b99324d7bbd44f76c2ae.stex" ]
+source_file="res://assets/ui/music-disabled.png"
+dest_files=[ "res://.import/music-disabled.png-27fa4554525c4554aa8a29238b699c72.stex" ]
 
 [params]
 

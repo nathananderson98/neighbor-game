@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sarah6.png-cb7742756bc101ca628349530651d595.stex"
+path="res://.import/Sarah6.png-d0c39d590f03955149d0c6b7a706bc81.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/runningSprites/sarah/Sarah6.png"
-dest_files=[ "res://.import/Sarah6.png-cb7742756bc101ca628349530651d595.stex" ]
+source_file="res://assets/runningSprites/sarah/Sarah6.png"
+dest_files=[ "res://.import/Sarah6.png-d0c39d590f03955149d0c6b7a706bc81.stex" ]
 
 [params]
 

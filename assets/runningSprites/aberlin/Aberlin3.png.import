@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Aberlin3.png-69d9bb749bdfc2c7fa5a229e3e4df450.stex"
+path="res://.import/Aberlin3.png-b0cd02e070ba961b1365bfd1453db0c8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/runningSprites/aberlin/Aberlin3.png"
-dest_files=[ "res://.import/Aberlin3.png-69d9bb749bdfc2c7fa5a229e3e4df450.stex" ]
+source_file="res://assets/runningSprites/aberlin/Aberlin3.png"
+dest_files=[ "res://.import/Aberlin3.png-b0cd02e070ba961b1365bfd1453db0c8.stex" ]
 
 [params]
 

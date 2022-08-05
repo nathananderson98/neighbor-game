@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/LadyMaggie.png-45db1b8ceff0e3cc219eccd3dc2535ba.stex"
+path="res://.import/LadyMaggie.png-22df0fc3f22f197ce23c322f5cc76235.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/LadyMaggie.png"
-dest_files=[ "res://.import/LadyMaggie.png-45db1b8ceff0e3cc219eccd3dc2535ba.stex" ]
+source_file="res://assets/LadyMaggie.png"
+dest_files=[ "res://.import/LadyMaggie.png-22df0fc3f22f197ce23c322f5cc76235.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/LadyAberlin.png-93e0679debcaa80d2e88d1cf59982c06.stex"
+path="res://.import/LadyAberlin.png-33150103c46d5876a2d99905f832b8bc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/LadyAberlin.png"
-dest_files=[ "res://.import/LadyAberlin.png-93e0679debcaa80d2e88d1cf59982c06.stex" ]
+source_file="res://assets/LadyAberlin.png"
+dest_files=[ "res://.import/LadyAberlin.png-33150103c46d5876a2d99905f832b8bc.stex" ]
 
 [params]
 

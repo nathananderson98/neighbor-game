@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TimStart.png-4aaeb772186a53fefd3639348d3ca75c.stex"
+path="res://.import/TimStart.png-ff63c8a3d00fa33139414fea64805f2c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/runningSprites/tim/TimStart.png"
-dest_files=[ "res://.import/TimStart.png-4aaeb772186a53fefd3639348d3ca75c.stex" ]
+source_file="res://assets/runningSprites/tim/TimStart.png"
+dest_files=[ "res://.import/TimStart.png-ff63c8a3d00fa33139414fea64805f2c.stex" ]
 
 [params]
 

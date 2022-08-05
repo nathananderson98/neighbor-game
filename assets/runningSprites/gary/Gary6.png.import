@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Gary6.png-4d508735414a3c2febec9f0e70698697.stex"
+path="res://.import/Gary6.png-afb867fe73b223fb1803c6fe4d4543f1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/runningSprites/gary/Gary6.png"
-dest_files=[ "res://.import/Gary6.png-4d508735414a3c2febec9f0e70698697.stex" ]
+source_file="res://assets/runningSprites/gary/Gary6.png"
+dest_files=[ "res://.import/Gary6.png-afb867fe73b223fb1803c6fe4d4543f1.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/maleSkin.png-5b122e54715816e236aef467c4759a69.stex"
+path="res://.import/maleSkin.png-4940da7822886b21aaff122f8d9db663.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://roger-roger/maleSkin.png"
-dest_files=[ "res://.import/maleSkin.png-5b122e54715816e236aef467c4759a69.stex" ]
+source_file="res://assets/maleSkin.png"
+dest_files=[ "res://.import/maleSkin.png-4940da7822886b21aaff122f8d9db663.stex" ]
 
 [params]
 
