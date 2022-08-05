@@ -12,7 +12,7 @@
 [ext_resource path="res://roger-roger/tilemap/StreetVerticalRight.png" type="Texture" id=10]
 [ext_resource path="res://roger-roger/tilemap/grass1.png" type="Texture" id=11]
 [ext_resource path="res://roger-roger/tilemap/justRoad.png" type="Texture" id=12]
-[ext_resource path="res://scenes/tree.tscn" type="PackedScene" id=13]
+[ext_resource path="res://scenes/decor.tscn" type="PackedScene" id=13]
 
 [sub_resource type="ConvexPolygonShape2D" id=3]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -139,6 +139,7 @@ tile_data = PoolIntArray( -13, 7, 0, -12, 7, 0, -11, 3, 0, -10, 1, 0, -9, 0, 0, 
 
 [node name="Tree" parent="YSort" instance=ExtResource( 13 )]
 position = Vector2( 412.655, 542.278 )
+SPRITE_ASSET = "tree"
 
 [node name="Tree2" parent="YSort" instance=ExtResource( 13 )]
 position = Vector2( 862.175, 801.526 )
@@ -148,6 +149,7 @@ position = Vector2( 1506.73, 1272.45 )
 
 [node name="Tree4" parent="YSort" instance=ExtResource( 13 )]
 position = Vector2( 1045.31, 479.251 )
+SPRITE_ASSET = "lamppos"
 
 [node name="Tree5" parent="YSort" instance=ExtResource( 13 )]
 position = Vector2( -64.6703, 908.108 )
@@ -159,22 +161,34 @@ position = Vector2( -68.0338, 1333.6 )
 position = Vector2( 935.996, 1365.56 )
 
 [node name="Trolley" parent="YSort" instance=ExtResource( 4 )]
-position = Vector2( 111.946, -51.4683 )
+position = Vector2( 116.441, -118.892 )
 
 [node name="Player" parent="YSort" instance=ExtResource( 1 )]
 position = Vector2( 521.375, 114 )
 
-[node name="House" parent="YSort" instance=ExtResource( 3 )]
+[node name="House1" parent="YSort" instance=ExtResource( 3 )]
 position = Vector2( 1972.13, 1965.82 )
 
-[node name="Neighbor" parent="YSort" instance=ExtResource( 5 )]
-position = Vector2( 760.201, 407.292 )
+[node name="House2" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 1079.23, 1518.43 )
+
+[node name="House3" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( -210.104, 1038.94 )
+
+[node name="House4" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 1471.88, 482.054 )
+
+[node name="Neighbor1" parent="YSort" instance=ExtResource( 5 )]
+position = Vector2( 1561.16, 1687.12 )
 
 [node name="Neighbor2" parent="YSort" instance=ExtResource( 5 )]
-position = Vector2( 521.578, 319.171 )
+position = Vector2( 487.675, 1641.38 )
 
 [node name="Neighbor3" parent="YSort" instance=ExtResource( 5 )]
-position = Vector2( 477.85, 707.714 )
+position = Vector2( -23.5379, 746.218 )
 
 [node name="Neighbor4" parent="YSort" instance=ExtResource( 5 )]
-position = Vector2( -324.858, 684.091 )
+position = Vector2( 985.045, 718.4 )
+
+[node name="Decor" parent="YSort" instance=ExtResource( 13 )]
+position = Vector2( 1353.08, 1162.06 )

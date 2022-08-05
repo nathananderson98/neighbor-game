@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://roger-roger/tree.png" type="Texture" id=1]
+[ext_resource path="res://scripts/decor.gd" type="Script" id=2]
 
-[node name="Tree" type="Node2D"]
+[node name="Decor" type="Node2D"]
+script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
 scale = Vector2( 6, 6 )

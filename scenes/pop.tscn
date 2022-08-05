@@ -1,0 +1,24 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://roger-roger/effects/pop-4.png" type="Texture" id=1]
+[ext_resource path="res://roger-roger/effects/pop-3.png" type="Texture" id=2]
+[ext_resource path="res://roger-roger/effects/pop-1.png" type="Texture" id=3]
+[ext_resource path="res://roger-roger/effects/pop-2.png" type="Texture" id=4]
+[ext_resource path="res://scripts/pop.gd" type="Script" id=5]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 2 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "pop",
+"speed": 8.0
+} ]
+
+[node name="Pop" type="AnimatedSprite"]
+position = Vector2( 0, -40 )
+scale = Vector2( 7, 7 )
+frames = SubResource( 1 )
+animation = "pop"
+script = ExtResource( 5 )
+
+[connection signal="animation_finished" from="." to="." method="_on_Pop_animation_finished"]

@@ -34,3 +34,4 @@ position = Vector2( 0, -2.25 )
 shape = SubResource( 3 )
 
 [connection signal="body_entered" from="TrolleySeatArea" to="." method="_on_TrolleySeatArea_body_entered"]
+[connection signal="body_exited" from="TrolleySeatArea" to="." method="_on_TrolleySeatArea_body_exited"]

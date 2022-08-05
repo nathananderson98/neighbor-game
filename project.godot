@@ -34,7 +34,6 @@ _global_script_class_icons={
 
 config/name="roger"
 run/main_scene="res://scenes/stage.tscn"
-config/icon="res://icon.png"
 
 [display]
 
