@@ -5,7 +5,7 @@ var level_path := "res://scenes/level{num}.tscn"
 var level1 = preload("res://scenes/level1.tscn")
 var current_level_num = 1
 var current_level : Node
-var max_levels = 3
+var max_levels := 3
 var level_win := false
 
 onready var end_timer := $EndTimer
@@ -18,7 +18,10 @@ func _ready() -> void:
 func _on_level_complete(is_win: bool) -> void:
 	print('Level complete')
 	level_win = is_win
-	end_timer.start(2)
+	if current_level_num == max_levels:
+		end_timer.start(3.5)
+	else:
+		end_timer.start(2)
 
 
 func _on_EndTimer_timeout() -> void:
