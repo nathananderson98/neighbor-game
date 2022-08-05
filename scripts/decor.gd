@@ -8,8 +8,8 @@ export var SPRITE_ASSET := SpriteAsset.bush1
 
 func _ready() -> void:
 	if SPRITE_ASSET in SpriteAsset:
-		sprite.texture = load("res://roger-roger/%s.png" % SPRITE_ASSET)
+		sprite.texture = load("res://assets/%s.png" % SPRITE_ASSET)
 	else:
 		print("ERROR - Provided Sprite asset is either not defined or misspelled: %s FIXME %s" % [SPRITE_ASSET, self.name])
-		sprite.texture = load("res://roger-roger/%s.png" % SpriteAsset.bush1)
+		sprite.texture = load("res://assets/%s.png" % SpriteAsset.bush1)
 	
