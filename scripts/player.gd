@@ -18,7 +18,7 @@ onready var gui := $GUI
 
 enum State {
 	MOVE,
-	IDLE
+	IDLE,
 }
 
 func set_camera_bounds(up: int, down: int, left: int, right: int):
@@ -59,8 +59,11 @@ func _move_state(delta: float) -> void:
 	else:
 		player_velocity = player_velocity.move_toward(Vector2.ZERO, FRICTION * delta)
 	
-	player_velocity = move_and_slide(player_velocity)
-	
+	player_velocity = move_and_slide(player_velocity, Vector2( 0, 0 ), false, 4, 0.785398, false)
+	for i in get_slide_count():
+		var collision := get_slide_collision(i)
+		if "Trolley" in collision.collider.name or "Car" in collision.collider.name:
+			state = State.IDLE
 	if player_velocity == Vector2.ZERO:
 		state = State.IDLE
 
@@ -70,3 +73,7 @@ func _idle_state(delta: float) -> void:
 		state = State.MOVE
 	else:
 		sprite.set_animation("idle")
+
+func _set_paused(paused: bool) -> void:
+	set_physics_process(!paused)
+	set_process(!paused)

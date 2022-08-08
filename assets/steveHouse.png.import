@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tyler4.png-453df669be0ed80b5b8b68b1ab643d15.stex"
+path="res://.import/steveHouse.png-c5189f00f4928bd7e97fd11ecf7b38a4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/runningSprites/tyler/tyler4.png"
-dest_files=[ "res://.import/tyler4.png-453df669be0ed80b5b8b68b1ab643d15.stex" ]
+source_file="res://assets/steveHouse.png"
+dest_files=[ "res://.import/steveHouse.png-c5189f00f4928bd7e97fd11ecf7b38a4.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -31,5 +31,5 @@ process/invert_color=false
 process/normal_map_invert_y=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

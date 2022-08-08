@@ -3,8 +3,8 @@ extends Node2D
 onready var sprite := $Sprite
 
 
-const SpriteAsset = {bush1 = "bush1", bush2 = "bush2", tree = "tree", lamppost = "lamppost"}
-export var SPRITE_ASSET := SpriteAsset.bush1
+const SpriteAsset = {bush1 = "bush1", bush2 = "bush2", tree = "tree", lamppost = "lamppost", stopsign = "stopsign"}
+export var SPRITE_ASSET := SpriteAsset.tree
 
 func _ready() -> void:
 	if SPRITE_ASSET in SpriteAsset:

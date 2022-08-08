@@ -30,7 +30,7 @@ animations = [ {
 radius = 13.0
 height = 10.0001
 
-[node name="Player" type="KinematicBody2D"]
+[node name="Player" type="KinematicBody2D" groups=["pausable"]]
 collision_mask = 7
 script = ExtResource( 9 )
 ACCELERATION = 2000
@@ -56,5 +56,5 @@ position = Vector2( 0, -111 )
 scale = Vector2( 3, 3 )
 texture = ExtResource( 11 )
 
-[node name="GUI" parent="." instance=ExtResource( 12 )]
+[node name="GUI" parent="." groups=["pausable"] instance=ExtResource( 12 )]
 position = Vector2( -640, -481 )

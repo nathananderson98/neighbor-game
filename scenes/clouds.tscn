@@ -2,7 +2,7 @@
 
 [ext_resource path="res://scripts/Clouds.gd" type="Script" id=3]
 
-[node name="Clouds" type="Node2D"]
+[node name="Clouds" type="Node2D" groups=["pausable"]]
 position = Vector2( -2.43112, -0.845276 )
 scale = Vector2( 10, 10 )
 script = ExtResource( 3 )

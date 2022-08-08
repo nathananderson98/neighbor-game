@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scripts/game_tip.gd" type="Script" id=1]
+[ext_resource path="res://scenes/8bit-text.tres" type="Theme" id=2]
+[ext_resource path="res://assets/fonts/dogicapixelbold.otf" type="DynamicFontData" id=3]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 131.363
+
+[sub_resource type="DynamicFont" id=2]
+size = 30
+extra_spacing_top = 7
+extra_spacing_bottom = 7
+extra_spacing_char = -4
+extra_spacing_space = 2
+font_data = ExtResource( 3 )
+
+[node name="GameTip" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 0.0883865, -0.0883865 )
+shape = SubResource( 1 )
+
+[node name="TextTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+margin_left = -126.0
+margin_top = -208.0
+margin_right = 129.0
+margin_bottom = 221.0
+rect_min_size = Vector2( 200, 0 )
+
+[node name="TipLabel" type="RichTextLabel" parent="MarginContainer"]
+margin_top = 58.0
+margin_right = 255.0
+margin_bottom = 370.0
+rect_min_size = Vector2( 150, 0 )
+size_flags_vertical = 4
+theme = ExtResource( 2 )
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "[center][wave amp=10 freq=4]If you can have one tip it would be play this game and have so much fun.[/wave][/center]"
+text = "If you can have one tip it would be play this game and have so much fun."
+fit_content_height = true
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
+[connection signal="timeout" from="TextTimer" to="." method="_on_TextTimer_timeout"]

@@ -3,11 +3,12 @@ extends Node2D
 class_name GUI
 
 signal toggle_music(music_off)
+signal toggle_pause(paused)
 
 onready var time_label := $MarginContainer/HBoxContainer/TimeLabel
 onready var neighbor_label := $MarginContainer/HBoxContainer/NeighborLabel
 onready var game_timer := $GameTimer
-onready var music_button := $MarginContainer/HBoxContainer/VBoxContainer/MusicButton
+onready var music_button := $MarginContainer/HBoxContainer/GridContainer/MusicButton
 onready var pause_button := $MarginContainer/HBoxContainer/GridContainer/PauseButton
 
 var arrow = preload("res://assets/ui/pointer.png")
@@ -36,10 +37,12 @@ func _process(delta: float) -> void:
 	time_label.text = "Time: %s" % time
 
 func _on_PauseButton_toggled(button_pressed: bool) -> void:
-	print('TODO nothing happens...')
+	game_timer.set_paused(button_pressed)
+	emit_signal("toggle_pause", button_pressed)
 	
 func _on_MusicButton_toggled(button_pressed: bool) -> void:
-	emit_signal("toggle_music", !button_pressed)
+	get_tree().call_group("plays_audio", "_set_audio", button_pressed)
+	emit_signal("toggle_music", button_pressed)
 
 func _on_mouse_entered() -> void:
 	Input.set_custom_mouse_cursor(hand)

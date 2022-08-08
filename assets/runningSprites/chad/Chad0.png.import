@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/spritesheet.png-76e0b916bc20d45ac6900db6e21d8a9e.stex"
+path="res://.import/Chad0.png-f15685666de170327d02e0e7d940c532.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/spritesheet.png"
-dest_files=[ "res://.import/spritesheet.png-76e0b916bc20d45ac6900db6e21d8a9e.stex" ]
+source_file="res://assets/runningSprites/chad/Chad0.png"
+dest_files=[ "res://.import/Chad0.png-f15685666de170327d02e0e7d940c532.stex" ]
 
 [params]
 

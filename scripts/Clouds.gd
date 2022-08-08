@@ -42,7 +42,6 @@ func _start_position():
 		var x = rng.randi_range(leftBorder.global_position.x, rightBorder.global_position.x)
 		cloud.global_position = Vector2(x, y)
 
-	
-	
+func _set_paused(paused: bool) -> void:
+	set_process(!paused)
 
-	
